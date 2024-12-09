@@ -3,10 +3,10 @@
 
 | Name           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-| Kinar Naila Fauziah | 5025231001| Teory Graph (IUP)  |
-| Sinta Prabondari Wardani| 5025231067 | Teory Graph (IUP) |
-| Azkiya Rusyda Zahra |  5025231072 | Teory Graph (IUP) |
-| Safa Nadhira  Azzahra | 5025231086  | Teory Graph (IUP) |
+| Kinar Naila Fauziah | 5025231001| Theory Graph (IUP)  |
+| Sinta Prabondari Wardani| 5025231067 | Theory Graph (IUP) |
+| Azkiya Rusyda Zahra |  5025231072 | Theory Graph (IUP) |
+| Safa Nadhira  Azzahra | 5025231086  | Theory Graph (IUP) |
 
 
 ### Introduction 
