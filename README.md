@@ -17,7 +17,7 @@ Image segmentation divides an image into meaningful regions, crucial for tasks l
 
 ## Segmentation output
 
-```
+```py
 def grid_to_graph(grid):
     """
     Convert a 2D grid into a graph where each cell is a node,
@@ -51,7 +51,7 @@ This converts a 2D grid into a graph, where each cell is a node, and edges are w
   4. The graph is returned
 
 
-```
+```py
 def segment_grid_with_mst(graph, threshold):
     """
     Perform grid segmentation using the MST method with a threshold.
@@ -79,7 +79,7 @@ This function segments the grid into regions using MST
   6. Finally, it will return the list of regions
 
 
-```
+```py
 def label_regions(grid, regions):
     """
     Assign labels to the regions and create a labeled grid.
@@ -99,7 +99,7 @@ this function will label the segmented regions on a grid
   4. Finally return the labeled grid
  
 
-```
+```py
 def read_input():
     """
     Reads a custom 2D grid from user input.
@@ -124,7 +124,7 @@ This will read a 2D grid from user's input
   2. Then it'll collect the grid values row by row, then parsing them into integers
   3. and finally returns the grid as numpy array
  
-```
+```py
 if __name__ == "__main__":
     print("Welcome to the Grid Segmentation Program!")
 
