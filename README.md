@@ -325,32 +325,14 @@ Finally, the main function is to run the entire process, from image loading to v
   4. Visualize the result
 
 ### Code 2
-### Code Flow
-1. Image Input
-   ```py
-   def main():
-   # Load and preprocess the image
-   image_path = 'Downloads/shocked.jpg'  # Replace with your image path
-   img = Image.open(image_path).convert('RGB')
-   img = img.resize((75, 75))  # Resize for simplicity
-   grayscale_image = rgb_to_grayscale(np.array(img))
-    
-   # Define threshold
-   threshold =  5 # Adjust as needed
-    
-   # Segment image with color categories
-   segmented_labels = segment_image_with_color_categories(grayscale_image, threshold)
-    
-   # Visualize segmented regions with color categories
-   visualize_segmented_colors(segmented_labels)
-
-   if __name__ == "__main__":
-    main()
-   ```
-   The user specifies an image file, the image will then be converted to RGB format and resized to 75x75 for simplicity.
-3. 
+### Code Explanation
+- The code segments an image into distinct regions based on pixel intensity differences using graph theory and Kruskal's Algorithm.
+- It converts an image into a graph where pixels are nodes and pixel intensity differences are edge weights.
+- Then, it will build an MST to extract connected components as image segments and categorizes edges into labeled intensity ranges (A,B,C, ets) for visualization
+  
 ### Image Input
 ![shocked](https://github.com/user-attachments/assets/6e0ac901-24fa-4f72-9854-bde1feea4fa3)
+
 ### Image Output
 ![image](https://github.com/user-attachments/assets/f3200bef-0ee8-43f5-a797-62008c1d7739)
 
