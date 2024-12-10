@@ -15,6 +15,7 @@ Image segmentation divides an image into meaningful regions, crucial for tasks l
 
 ## Program Demonstration
 
+### Code 1
 ### Segmentation output
 
 ```py
@@ -150,6 +151,10 @@ if __name__ == "__main__":
         print(" ".join(row))
 ```
 The main function will be the function where we call other functions
+
+This are an example Input and Output
+![image](https://github.com/user-attachments/assets/431e1894-892d-4be8-a00d-b2d3ed0fa389)
+
 
 
 ### Image output
