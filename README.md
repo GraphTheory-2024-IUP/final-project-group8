@@ -155,6 +155,9 @@ The main function will be the function where we call other functions
 This are an example Input and Output
 ![image](https://github.com/user-attachments/assets/431e1894-892d-4be8-a00d-b2d3ed0fa389)
 
+- Analysis output
+  
+  As you can see, the output for each numbers will turn into segments of alphabets that are divided using MST
 
 
 ### Image output
@@ -322,5 +325,6 @@ Finally, the main function is to run the entire process, from image loading to v
   4. Visualize the result
 
 
+### Conclusion
 
 
