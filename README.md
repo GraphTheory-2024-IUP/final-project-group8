@@ -324,9 +324,6 @@ Finally, the main function is to run the entire process, from image loading to v
   3. Segment the image
   4. Visualize the result
 
-
-### Code 1 Conclusion
-
 ### Code 2
 ### Code Flow
 1. Image Input
@@ -357,4 +354,9 @@ Finally, the main function is to run the entire process, from image loading to v
 ### Image Output
 ![image](https://github.com/user-attachments/assets/f3200bef-0ee8-43f5-a797-62008c1d7739)
 
+- Analysis
+From the result, we can analyze the segmentation separations and it defines the shape of the image. The resized image leads to a loss of detail, which affects the segmentation accuracy
+  
 
+### Conclusion
+from the codes and results, we can conclude that by using kruskal's algorithm, the program is able to define each part of the image by separating each node into certain segments from the adjusted threshold.
